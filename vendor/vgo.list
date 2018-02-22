@@ -1,0 +1,3 @@
+MODULE                                  VERSION
+github.com/elithrar/vgo-docker-example  -
+github.com/gorilla/mux                  v1.6.1
