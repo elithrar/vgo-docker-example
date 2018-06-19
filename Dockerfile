@@ -8,4 +8,6 @@ RUN vgo install ./...
 
 FROM gcr.io/distroless/base
 COPY --from=build /go/bin/vgo-docker-example /
+ENV PORT=8080
+EXPOSE 8080
 CMD ["/vgo-docker-example"]
